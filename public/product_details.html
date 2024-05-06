@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../src/slick.css">
+    <link rel="stylesheet" type="text/css" href="../src/slick-theme.css">
+</head>
+<body class="font-roboto flex flex-col min-h-screen">
+    <header class=" sticky top-0 z-50">
+      <!-- ===================notice==================== -->
+      <section id="job" class="place animate_bg">
+        <div class=" relative container max-w-screen-xl mx-auto px-4 py-1.5">
+          <div class="row">
+            <div class="w-full px-4 flex flex-wrap items-center justify-center">
+              <h3 class=" px-0 sm:px-4 font-bold text-white text-base">We Are Hiring!</h3>
+              <a href="./careers02.html" class="block px-4 text-sm text-white">Learn more <span ><i class=" fa-solid fa-caret-right"></i></span></a>
+            </div>
+          </div>
+          <span class="cross block absolute top-1/4 transform -translate-y-0.5 right-4 cursor-pointer text-white"><i class="fa-solid fa-xl fa-square-xmark"></i></span>
+        </div>
+      </section>
+      <!-- ===================notice End==================== -->
+      <!-- ================Navbar====================== -->
+      <nav class=" bg-color-2 shadow-lg">
+        <div class=" relative container max-w-screen-xl mx-auto px-4 py-4">
+          <div class="row items-center justify-between">
+            <div class="w-full md:w-1/4 px-4">
+              <a href="./index.html"><img src="../image/Logo.png" alt="Logo" class=""></a>
+            </div>
+            <div class="w-full md:w-2/4 px-4">
+              <ul class=" nav-bar hidden lg:flex flex-wrap items-center justify-center  space-x-4">
+                <li class=" py-3"><a href="./index.html" class=" relative text-black hover:text-logic-pest">Home</a></li>
+                <li class=" py-3"><a href="./our_products.html" class=" relative text-logic-pest">Products</a></li>
+                <li class=" py-3"><a href="./team.html" class=" relative text-black hover:text-logic-pest">Our Team</a></li>
+                <li class=" py-3"><a href="./about.html" class=" relative text-black hover:text-logic-pest">About us</a></li>
+                <!-- <li class=" py-3"><a href="javascript:;" class=" relative text-black hover:text-logic-pest">Pricing</a></li> -->
+                <li class=" py-3"><a href="./contacts.html" class=" relative text-black hover:text-logic-pest">Contact us</a></li>
+                <li class=" py-3"><a href="./careers.html" class=" relative text-black hover:text-logic-pest">Careers</a></li>
+                <!-- <li class=" py-3"><a href="javascript:;" class=" relative text-black hover:text-logic-pest">Blog</a></li> -->
+              </ul>
+            </div>
+            <div class="w-1/4 px-4">
+              <ul class=" hidden lg:flex flex-wrap items-center justify-end gap-4">
+                <li><a href="javascript:;" class=" px-4 py-3 text-black hover:text-logic-pest">Login</a></li>
+                <li><a href="./contacts.html" class=" px-6 py-3 btn-col-1  transition ease-in-out duration-300 rounded-md text-white">Get Started</a></li>
+              </ul>
+            </div>
+            <!-- =================Mobile Menu Button=================== -->
+            <a href="javascript:;" class="menu-toggle component-navicon closed absolute lg:hidden top-1/3 transform -translate-y-2 right-4">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <!-- =================Mobile Menu Button End=================== -->
+          </div>
+          <!-- ========================Mobile Menu=============================== -->
+          <div class="mobile-menu hidden lg:hidden relative">
+            <ul class=" z-30 absolute top-2 w-full divide-y divide-bg-color-2 list rounded-sm shadow-xl">
+              <li class=""><a href="./index.html" class=" relative flex p-4">Home</a></li>
+              <li class=""><a href="./our_products.html" class=" relative flex p-4">Products</a></li>
+              <li class=""><a href="./team.html" class=" relative flex p-4">Our Team</a></li>
+              <li class=""><a href="./about.html" class=" relative flex p-4">About us</a></li>
+              <!-- <li class=""><a href="javascript:;" class=" relative flex p-4">Pricing</a></li> -->
+              <li class=""><a href="./contacts.html" class=" relative flex p-4">Contact us</a></li>
+              <li class=""><a href="./careers.html" class=" relative flex p-4">Careers</a></li>
+              <!-- <li class=""><a href="javascript:;" class=" relative flex p-4">Blog</a></li> -->
+            </ul>
+          </div>
+          <!-- ========================Mobile Menu END=============================== -->
+        </div>
+      </nav>
+      <!-- ================Navbar End====================== -->
+    </header>
+    <!-- =====================Heading & Preview Start================== -->
+    <section class="py-10 bg-gray-100">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-center">
+          <div class="w-full md:w-8/12 px-4">
+            <h1 class="font-bold text-lg md:text-xl lg:text-2xl text-gray-900">Detox - Data Science & Analytics HTML Website</h1>
+          </div>
+          <div class="w-full md:w-4/12 px-4">
+            <div class="w-full flex justify-center pt-8 md:pt-0">
+              <a href="javascript:;" class=" w-40 sm:w-60 py-2 px-3 sm:px-4 text-sm sm:text-base flex justify-center text-white font-bold btn-col-1 rounded-md">
+                <span class="mr-1 mt-0 sm:mt-0.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                  </svg>                
+              </span>
+                Live Preview
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================Heading & Preview End================== -->
+    <!-- =====================Carousel Start================== -->
+    <section class="pb-10 bg-gray-100">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-start">
+          <div class="relative w-full md:w-8/12 px-0 md:px-4">
+            <div class="single-item w-full">
+              <div class="w-full">
+                <img src="../image/0eec1722-5b23-4d0d-b5c6-c7106f929c32.avif" class="w-full max-h-96 bg-cover bg-center" alt="banner_1">
+              </div>
+              <div class="w-full">
+                <img src="../image/2a68ae02-d98a-4622-a698-1045dd860012.avif" class="w-full max-h-96 bg-cover bg-center" alt="banner_2">
+              </div>
+              <div class="w-full">
+                <img src="../image/2b949aa1-a86a-4549-a117-00bfec4d00aa.avif" class="w-full max-h-96 bg-cover bg-center" alt="banner_3">
+              </div>
+              <div class="w-full">
+                <img src="../image/73d85a12-b547-4978-a403-c69021e8d3ab.avif" class="w-full max-h-96 bg-cover bg-center" alt="banner_4">
+              </div>
+              <div class="w-full">
+                <img src="../image/c1778fd1-bfa5-4dc5-8981-2d1e2c7a7730.avif" class="w-full max-h-96 bg-cover bg-center" alt="banner_5">
+              </div>
+            </div>
+            <div class="absolute leftNav top-1/3 transform translate-y-6 text-gray-300 cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 sm:w-16 md:w-20 h-12 sm:h-16 md:h-20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>              
+            </div>
+            <div class="absolute rightNav top-1/3 transform translate-y-6 right-0 md:right-4 text-gray-300 cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 sm:w-16 md:w-20 h-12 sm:h-16 md:h-20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>                          
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 pt-8 md:pt-0">
+            <div class="w-full h-full p-4 border border-gray-300 rounded-md">
+              <div class="w-full space-y-2">
+                <h2 class="font-bold text-base text-gray-900 text-center py-2">**Technologies Used In This project**</h2>
+                <div>
+                  <h3 class="font-bold text-sm text-gray-900">UI frameworks</h3>
+                  <ul class="px-4 space-y-1">
+                    <li class="text-sm text-gray-700">Bootstrap</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="font-bold text-sm text-gray-900">JavaScript libraries</h3>
+                  <ul class="px-4 space-y-1">
+                    <li class="text-sm text-gray-700">Core-js</li>
+                    <li class="text-sm text-gray-700">React js</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="font-bold text-sm text-gray-900">Web frameworks</h3>
+                  <ul class="px-4 space-y-1">
+                    <li class="text-sm text-gray-700">Laravel</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================Carousel End================== -->
+    <!-- ===================== Product Details Start================== -->
+    <section class="py-10 bg-white">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full md:w-8/12 px-4 space-y-8">
+            <div class="w-full space-y-4">
+              <p class=" text-base text-gray-700">Detox – Data Science & Analytics HTML Template is build for all data science and AI related project. This template is perfect fit for those services also, Data science Service, Artificial Intelligence & Machine Learning Service, Data Analytics, Data Migration Service, Data Visualisation Service, Data Warehouse Service and Predictive Analytics Services.</p>
+              <p class=" text-base text-gray-700">It is suitable for Industrial sites, mechanical, engineering, chemical industry, construction company, steel factory, Electrician, Plumbing industry, Factory, Industrial, Construction, Commodity Business, Power, Rail Business, Airplane, Ship Business, Oil & Gas Business, Petroleum website and similar websites. Build your own website with our awesome Industries! Please check more information below;</p>
+            </div>
+            <div class="w-full space-y-4">
+              <h2 class="font-bold text-lg text-gray-900">Features Overview</h2>
+              <ul class="list-disc px-4 space-y-2">
+                <li class="text-base text-gray-700">Responsive Layout Design: What ever you are using the device your site will run as it should be. The Industries template is fully responsive layout for all type of devices.</li>
+                <li class="text-base text-gray-700">25+ Valid HTML Files : The Detox template coded with beautiful and clean codes! Some powerful HTML files 100% valid W3 web standards.</li>
+                <li class="text-base text-gray-700">Custom Blog Templates : Blogging very important! We designed beautiful blog page templates and custom single blog styles for your news and updates..</li>
+                <li class="text-base text-gray-700">Bootstrap Framework: Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</li>
+              </ul>
+            </div>
+            <div class="w-full space-y-4">
+              <h2 class="font-bold text-lg text-gray-900">Full Features List</h2>
+              <ul class="list-disc px-4 space-y-2">
+                <li class="text-base text-gray-700">100% Fluid Responsive – Fits any device perfectly</li>
+                <li class="text-base text-gray-700">Tested on real devices</li>
+                <li class="text-base text-gray-700">Flexible Layout</li>
+                <li class="text-base text-gray-700">Flat, modern and clean design.</li>
+                <li class="text-base text-gray-700">Retina Optimized</li>
+                <li class="text-base text-gray-700">Social Links</li>
+                <li class="text-base text-gray-700">Clean & Commented Code</li>
+                <li class="text-base text-gray-700">Advanced Typography</li>
+                <li class="text-base text-gray-700">Pixel Perfect Design</li>
+                <li class="text-base text-gray-700">Built on Bootstrap 3</li>
+                <li class="text-base text-gray-700">Valid HTML5 & CSS3 Files</li>
+                <li class="text-base text-gray-700">Blog Pages</li>
+                <li class="text-base text-gray-700">Various Post Formats</li>
+                <li class="text-base text-gray-700">Cross Browser Compatibility</li>
+                <li class="text-base text-gray-700">Wide & Boxed Layouts</li>
+                <li class="text-base text-gray-700">Multiple location google map</li>
+                <li class="text-base text-gray-700">Parallax effect</li>
+                <li class="text-base text-gray-700">Awesome Unique Look</li>
+                <li class="text-base text-gray-700">Unique effects and functionality</li>
+                <li class="text-base text-gray-700">Google font</li>
+                <li class="text-base text-gray-700">Quick, Dedicated & Professional Support</li>
+                <li class="text-base text-gray-700">Well Documented & More</li>
+              </ul>
+            </div>
+            <div class="w-full space-y-4">
+              <h2 class="font-bold text-lg text-gray-900">Item tags</h2>
+              <ul class=" flex flex-wrap justify-start gap-3">
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Artificial</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Intelligence</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Big</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Data</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Business</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Creative</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Science</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Visualization</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Internet</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Of</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Things</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Landing</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Page</a></li>
+                <li class="text-base text-gray-700"><a href="javascript:;" class="block py-1 px-4 border border-gray-700 rounded-full hover:bg-blue-200 transform transition duration-150">Machine</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 pt-8 md:pt-0">
+            <div class="relative w-full px-4 space-y-4">
+              <div class="absolute width-1 -mx-4 bg-gradient-to-b from-white to-red-600 h-8"></div>
+              <div class="absolute width-1 -mx-4 bg-red-600 h-full"></div>
+              <div class="absolute width-1 -mx-4 -bottom-8 bg-gradient-to-t from-white to-red-600 h-8"></div>
+              <div class="relative w-full space-y-2">
+                <div class="absolute w-2 h-2 top-2 -left-5 bg-white border border-red-600 rounded-full"></div>
+                <h2 class="font-bold text-base text-gray-900">Additions</h2>
+                <ul class="px-4 space-y-1">
+                  <li class="text-sm text-gray-700">Retina ready</li>
+                  <li class="text-sm text-gray-700">Responsive</li>
+                  <li class="text-sm text-gray-700">Documentation Included</li>
+                </ul>
+              </div>
+              <div class="relative w-full space-y-2">
+                <div class="absolute w-2 h-2 top-2 -left-5 bg-white border border-red-600 rounded-full"></div>
+                <h2 class="font-bold text-base text-gray-900">Commercial License</h2>
+                <ul class="px-4 space-y-1">
+                  <li class="text-sm text-gray-700"><a href="javascript:;" class="underline hover:text-blue-700">Further Information</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== Product Details End================== -->
+    <!-- =====================Similar Product Section Start================== -->
+    <section class="py-10 bg-gray-100">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row space-y-8">
+          <div class="w-full px-4 flex flex-wrap justify-between items-center">
+            <h2 class="font-bold text-lg md:text-xl lg:text-2xl text-gray-900">Similar Web Templates</h2>
+            <a href="./our_products.html" class="block text-sm text-color-1 font-semibold">SEE MORE <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- ========cards======== -->
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/0655dfdf-d13a-4123-b797-7200b519d060?auto=compress%2Cformat&w=1370&fit=max&s=14a753a49a2fa82e9a745c54aad6550a" alt="Wooland Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Wooland - Responsive eCommerce HTML Template</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm"> Amazing CSS3 Effects & Animations Optimized Code Simple & Easy to Use/Customize Working Contact Form Google Map Font Awesome icons Clean Design Google Web Fonts Filterable Portfolio</p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/2b949aa1-a86a-4549-a117-00bfec4d00aa?auto=compress%2Cformat&w=1019&fit=max&s=8841f7498d06cc936a5f2e82aecfd36b" alt="Detox Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Detox - Data Science & Analytics HTML Website</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm">Detox – Data Science & Analytics HTML Template is build for all data science and AI related project. This template is perfect fit for those services also, Data science Service, Artificial Intelligence & Machine Learning Service, Data Analytics, Data Migration Service, Data Visualisation Service, Data Warehouse Service and Predictive Analytics Services.</p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/67acca72-a105-4f51-bb07-a6ede11e42de?auto=compress%2Cformat&w=1019&fit=max&s=9bbb722dc4f8d5ced38141499200d5a6" alt="Gogo Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Gogo React - React Admin Template</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm">Gogo's main focus is attention for details and quality. We used better and design language for components, layouts, apps and other parts of the themes. </p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/66eafe05-afd2-46f1-9ee9-ca06e8ddca53?auto=compress%2Cformat&w=1019&fit=max&s=45bbd2603b47ecd819c3d284b960768e" alt="Orfarm Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Orfarm - Multipurpose eCommerce HTML5 Template</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm">Orfarm is an attractive HTML Bootstrap 5.x template specially designed for the multipurpose shops like mega store, grocery store, supermarket, organic shop, and online stores selling products like beverages, vegetables, fruits, ice creams, paste, herbs, juice, meat, cold drinks, sausages, cocktails, soft drinks, cookies</p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/66eafe05-afd2-46f1-9ee9-ca06e8ddca53?auto=compress%2Cformat&w=1019&fit=max&s=45bbd2603b47ecd819c3d284b960768e" alt="Orfarm Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Orfarm - Multipurpose eCommerce HTML5 Template</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm">Orfarm is an attractive HTML Bootstrap 5.x template specially designed for the multipurpose shops like mega store, grocery store, supermarket, organic shop, and online stores selling products like beverages, vegetables, fruits, ice creams, paste, herbs, juice, meat, cold drinks, sausages, cocktails, soft drinks, cookies</p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4">
+            <a href="javascript:;" class="group w-full h-full block">
+              <div class="w-full h-full flex flex-wrap justify-center">
+                <div class="w-80 bg-white rounded-lg overflow-hidden shadow-lg flex flex-col">
+                  <img class="w-full h-32 object-cover transform transition ease-in-out duration-300 group-hover:scale-110" src="https://elements-cover-images-0.imgix.net/66eafe05-afd2-46f1-9ee9-ca06e8ddca53?auto=compress%2Cformat&w=1019&fit=max&s=45bbd2603b47ecd819c3d284b960768e" alt="Orfarm Image">
+                  <div class="px-4 py-2 flex-grow">
+                    <h3 class="text-sm font-bold mb-2 line-clamp-2 min-h-[40px] text-gray-900">Orfarm - Multipurpose eCommerce HTML5 Template</h3>
+                    <p class="text-gray-700 mb-2 line-clamp-2 text-sm">Orfarm is an attractive HTML Bootstrap 5.x template specially designed for the multipurpose shops like mega store, grocery store, supermarket, organic shop, and online stores selling products like beverages, vegetables, fruits, ice creams, paste, herbs, juice, meat, cold drinks, sausages, cocktails, soft drinks, cookies</p>
+                  </div>
+                  <button class="text-color-1 bg-blue-100 group-hover:bg-blue-200 transition ease-in-out duration-300 font-bold py-2 px-4">Live Preview</button>
+                </div>
+              </div>          
+            </a>
+          </div>
+        </div>
+      </div>      
+    </section>
+    <!-- =====================Similar Product Section End================== -->
+    <!-- =====================Footer bg Start================== -->
+    <section>
+      <div class="w-full">
+        <img src="../image/footer_bg.png" alt="Footer Background" class="w-full">
+      </div>
+    </section>
+    <!-- =====================Footer bg End================== -->
+    <!-- ===============Footer Section Start============== -->
+    <section class="py-10 bg-logic-color3">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full sm:w-6/12 md:w-5/12 lg:w-4/12 px-4">
+            <div class="w-full space-y-4">
+              <a href="./index.html">
+                <img src="../image/Logo_white.png" alt="logo_white" class="w-32">
+              </a>
+              <p class="text-white text-base">Logic Line is the leading software firm in Khulna,Bangladesh. It has a team of capable employees who can curate services to meet your demands.</p>
+            </div>
+            <div class="w-full my-4">
+              <div class="flex flex-nowrap justify-start items-center gap-1 text-white">
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-logic-pest transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-logic-pest transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-logic-pest transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-logic-pest transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 md:w-4/12 lg:w-3/12 px-4 pt-12 sm:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Address</h3>
+              <ul class="space-y-2 text-white">
+                <li><a href="tel:+8801955786556" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-phone"></i></span><p>+880 1955-786556</p></a></li>
+                <li><a href="mailto:contact@logicline.tech" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-envelope"></i></span><p>contact@logicline.tech</p></a></li>
+                <li><a href="https://maps.app.goo.gl/7ATVcjZeA5Gu5jnh7" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-location-dot"></i></span><p>6th Floor, South Zone Hospital,33 Outer Bypass Rd, Khulna-9100</p></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 md:w-3/12 lg:w-2/12 px-4 pt-12 md:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Quick Links</h3>
+              <ul class="space-y-2 text-white">
+                <!-- <li><a href="./index.html" class="hover:text-gray-300 transition duration-300">Home</a></li> -->
+                <!-- <li><a href="./team.html" class="hover:text-gray-300 transition duration-300">Our Team</a></li> -->
+                <li><a href="./about.html" class="hover:text-gray-300 transition duration-300">About Us</a></li>
+                <li><a href="./contacts.html" class="hover:text-gray-300 transition duration-300">Contact Us</a></li>
+                <li><a href="./our_products.html" class="hover:text-gray-300 transition duration-300">Products</a></li>
+                <li><a href="./careers.html" class="hover:text-gray-300 transition duration-300">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 lg:w-3/12 px-4 pt-12 lg:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Subscribe to our newsletter</h3>
+              <div class="space-y-2">
+                <p class="text-white text-base">The latest news, articles, and resources, sent to your inbox weekly.</p>
+                <form action="" class="flex flex-nowrap gap-2">
+                  <input type="email" name="email" autocomplete="email" placeholder="Enter Your Email" class="block w-full rounded-md bg-gray-500 text-white border-0 py-1.5 px-3 shadow-sm ring-1 ring-inset ring-logic-color3 focus:ring-logic-pest placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6">
+                  <button class="py-1.5 px-4 text-logic-color3 hover:text-white font-bold bg-white hover:bg-logic-pest transition duration-300 ease-in-out rounded-md">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Footer Section End============== -->
+    <!-- ===============Border Start============== -->
+    <section class="mt-auto pt-10 bg-logic-color3">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full px-4 border-t border-logic-pest"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Border End============== -->
+    <!-- ===============Right Reserved Start============== -->
+    <section class="py-4 bg-logic-color3">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full px-4">
+            <p class=" text-white text-sm text-center"><span class="pr-4"><i class="fa-regular fa-copyright"></i></span>All rights reserved by <a href="./index.html" class="font-semibold">Logic Line</span>.</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Right Reserved End============== -->
+    <script src="../js/index.js"></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.single-item').slick({
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          prevArrow: $('.leftNav'),
+          nextArrow: $('.rightNav'),  
+        });
+      });
+    </script>
+</body>
+</html>

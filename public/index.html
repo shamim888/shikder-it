@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="../image/shikder_it.png">
+    <meta name="description" content="Leading Software Development: Android, Web, iOS Apps & Full-Stack Solutions. Contact ShikderIT for Innovative & Custom Software.">
+    <title>ShikderIT | Software Development Company in Kolkata, India</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../src/slick.css">
+    <link rel="stylesheet" type="text/css" href="../src/slick-theme.css">
+</head>
+<body class="font-roboto  flex flex-col min-h-screen">
+    <header class=" sticky top-0 z-50">
+      <!-- ===================notice==================== -->
+      <section id="job" class="place animate_bg">
+        <div class=" relative container max-w-screen-xl mx-auto px-4 py-1.5">
+          <div class="row">
+            <div class="w-full px-4 flex flex-wrap items-center justify-center">
+              <h3 class=" px-0 sm:px-4 font-bold text-white text-base">We Are Hiring!</h3>
+              <a href="./careers02.html" class="block px-4 text-sm text-white">Learn more <span ><i class=" fa-solid fa-caret-right"></i></span></a>
+            </div>
+          </div>
+          <span class="cross block absolute top-1/4 transform -translate-y-0.5 right-4 cursor-pointer text-white"><i class="fa-solid fa-xl fa-square-xmark"></i></span>
+        </div>
+      </section>
+      <!-- ===================notice End==================== -->
+      <!-- ================Navbar====================== -->
+      <nav class=" bg-white shadow-md shadow-shikder-coral03">
+        <div class=" relative container max-w-screen-xl mx-auto px-4 py-4">
+          <div class="row items-center justify-between">
+            <div class="w-full md:w-1/4">
+              <a href="./index.html"><img src="../image/shikder_it.png" alt="Logo" class=""></a>
+            </div>
+            <div class="w-full md:w-2/4 px-4">
+              <ul class=" nav-bar hidden lg:flex flex-wrap items-center justify-center space-x-4">
+                <li class=" py-3"><a href="./index.html" class=" relative text-shikder-primary">Home</a></li>
+                <li class=" py-3"><a href="./our_products.html" class=" relative text-gray-900 hover:text-shikder-primary">Products</a></li>
+                <li class=" py-3"><a href="./team.html" class=" relative text-gray-900 hover:text-shikder-primary">Our Team</a></li>
+                <li class=" py-3"><a href="./about.html" class=" relative text-gray-900 hover:text-shikder-primary">About us</a></li>
+                <!-- <li class=" py-3"><a href="javascript:;" class=" relative text-gray-900 hover:text-shikder-primary">Pricing</a></li> -->
+                <li class=" py-3"><a href="./contacts.html" class=" relative text-gray-900 hover:text-shikder-primary">Contact us</a></li>
+                <li class=" py-3"><a href="./careers.html" class=" relative text-gray-900 hover:text-shikder-primary">Careers</a></li>
+                <!-- <li class=" py-3"><a href="javascript:;" class=" relative text-gray-900 hover:text-shikder-primary">Blog</a></li> -->
+              </ul>
+            </div>
+            <div class="w-1/4 px-4">
+              <ul class=" hidden lg:flex flex-wrap items-center justify-end gap-4">
+                <li><a href="javascript:;" class=" px-4 py-3 text-gray-900 hover:text-shikder-primary">Login</a></li>
+                <li><a href="./contacts.html" class=" px-6 py-3 bg-shikder-primary hover:bg-shikder-light hover:shadow-md shadow-shikder-light transition ease-in-out duration-300 rounded-md text-white">Get Started</a></li>
+              </ul>
+            </div>
+            <!-- =================Mobile Menu Button=================== -->
+            <a href="javascript:;" class="menu-toggle component-navicon closed absolute lg:hidden top-1/3 transform -translate-y-2 right-4">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <!-- =================Mobile Menu Button End=================== -->
+          </div>
+          <!-- ========================Mobile Menu=============================== -->
+          <div class="mobile-menu hidden lg:hidden relative">
+            <ul class=" z-30 absolute top-2 w-full divide-y divide-shikder-coral07 bg-shikder-coral06 list rounded-sm shadow-xl">
+              <li class=""><a href="./index.html" class=" relative flex p-4">Home</a></li>
+              <li class=""><a href="./our_products.html" class=" relative flex p-4">Products</a></li>
+              <li class=""><a href="./team.html" class=" relative flex p-4">Our Team</a></li>
+              <li class=""><a href="./about.html" class=" relative flex p-4">About us</a></li>
+              <!-- <li class=""><a href="javascript:;" class=" relative flex p-4">Pricing</a></li> -->
+              <li class=""><a href="./contacts.html" class=" relative flex p-4">Contact us</a></li>
+              <li class=""><a href="./careers.html" class=" relative flex p-4">Careers</a></li>
+              <!-- <li class=""><a href="javascript:;" class=" relative flex p-4">Blog</a></li> -->
+            </ul>
+          </div>
+          <!-- ========================Mobile Menu END=============================== -->
+        </div>
+      </nav>
+      <!-- ================Navbar End====================== -->
+    </header>
+    <!-- =====================Hero Section================== -->
+    <section class=" ">
+      <div class="container max-w-screen-xl mx-auto px-4 py-4">
+        <div class="row items-center">
+          <div class=" w-full md:w-6/12 px-4 space-y-2 md:space-y-4">
+            <!-- <p class=" pt-8 md:pt-0 text-gradient font-bold text-xs sm:text-base md:text-xl md:tracking-widest">CUSTOMER SERVICE</p> -->
+            <h2 class=" font-medium text-xl md:text-2xl lg:text-4xl capitalize tracking-widest text-gray-900 pb-6 sm:pb-2">Discover the <span class="font-semibold text-animation"> BEST software development Company</span> for your software solutions.</h2>
+            <p class="text-base sm:text-lg md:text-xl text-gray-900 pr-8 md:pr-0 ">ShikderIThas a reputation for up to scratch customer experience with <span class="font-bold">Android, Web,IOS Apps</span> which marks us as one of the best software development companies.</p>
+            <p class=" text-base sm:text-lg md:text-xl text-gray-900 pb-8 lg:pb-0 pr-8 md:pr-0">We specialize in refining and perfecting customer experiences for our's client businesses.</p>
+          </div>
+          <div class=" w-full md:w-6/12 px-4">
+              <div class="flex justify-center items-center">
+                  <img src="../image/hero01.png" alt="hero">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================Hero Section End================== -->
+
+    <!-- =====================Trusted Start====================== -->
+    <section class=" py-10">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row justify-center items-center space-y-8">
+          <div class="w-full">
+            <h3 class=" text-center font-bold text-base sm:text-lg md:text-xl tracking-widest"> <span class=" text-animation"> TRUSTED BY</span></h3>
+          </div>
+          <div class=" px-4">
+            <a href="javascript:;" class="w-full flex flex-nowrap items-center gap-2">
+              <img src="../image/Just Tour -জাষ্ট ট্যুর.jpg" alt="just_tour" class="h-10">
+              <p class=" text-gray-900 text-base font-bold">Just Tour -জাষ্ট ট্যুর</p>
+            </a>
+          </div>
+          <div class=" px-4">
+            <a href="javascript:;" class="w-full flex flex-nowrap items-center gap-2">
+              <img src="../image/studio_alterity_logo.jpg" alt="alterity" class="bg-cover">
+              <p class=" text-gray-900 text-base font-bold"></p>
+            </a>
+          </div>
+          <div class=" px-4">
+            <a href="javascript:;" class="w-full flex flex-nowrap items-center gap-2">
+              <img src="../image/gg_fasion.png" alt="gg_fasion" class="h-10">
+              <p class=" text-gray-900 text-base font-bold">GG Fasion</p>
+            </a>
+          </div>
+          <div class=" px-4">
+            <a href="javascript:;" class="w-full flex flex-nowrap items-center gap-2">
+              <img src="../image/epicgroup.png" alt="epicgroup" class="h-10">
+              <p class=" text-gray-900 text-base font-bold"></p>
+            </a>
+          </div>
+          <div class=" px-4">
+            <a href="javascript:;" class="w-full flex flex-nowrap items-center gap-2">
+              <img src="../image/octopus.png" alt="octopus" class="bg-cover w-40">
+              <p class=" text-gray-900 text-base font-bold"></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================Trusted End====================== -->
+
+    <!-- =========================Dedicated Start=========================== -->
+    <section class=" py-10">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-center">
+          <div class="w-full md:w-6/12 px-4">
+            <div class="flex justify-center md:justify-start items-center">
+                <img src="../image/deal.svg" alt="pexels1">
+            </div>
+          </div>
+          <div class=" w-full md:w-6/12 px-4 space-y-4 md:space-y-6 pt-6 md:pt-0">
+            <p class=" font-bold text-base sm:text-lg md:text-xl tracking-widest"><span class="text-animation">FEATURES</span></p>
+            <h2 class=" font-bold text-lg md:text-2xl lg:text-4xl">Dedicated team of customer satisfaction experts</h2>
+            <p class=" text-base sm:text-lg md:text-xl text-gray-900 pb-8 lg:pb-0">We're committed to understanding your business needs and work together on solutions to enhance customer experiences</p>
+            <div class=" border-b-2 border-shikder-coral05"></div>
+            <div class=" flex flex-nowrap">
+                <span class=" text-shikder-coral01 pr-4"><i class="fa-sharp fa-solid fa-2xl fa-circle-check"></i></span>
+                <p class=" text-base ">Comprehensive range of service</p>
+            </div>
+            <div class=" flex flex-nowrap">
+                <span class=" text-shikder-coral01 pr-4"><i class="fa-sharp fa-solid fa-2xl fa-circle-check"></i></span>
+                <p class=" text-base ">Tailored solutions for unique business needs</p>
+            </div>
+            <div class=" flex flex-nowrap">
+                <span class=" text-shikder-coral01 pr-4"><i class="fa-sharp fa-solid fa-2xl fa-circle-check"></i></span>
+                <p class=" text-base ">Proven track record of success</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================Dedicated End=========================== -->
+    <!-- =========================Tailored Start=========================== -->
+    <section class=" py-10">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-center">
+          <div class=" order-2 md:order-1 w-full md:w-6/12 px-4 space-y-4 md:space-y-6 pt-6 md:pt-0">
+            <p class="  font-bold text-base sm:text-lg md:text-xl tracking-widest"><span class="text-animation">FEATURES</span></p>
+            <h2 class=" font-bold text-lg md:text-2xl lg:text-4xl">Tailored solution for unique business needs</h2>
+            <p class=" text-base sm:text-lg md:text-xl text-gray-900 pb-8 lg:pb-0">We understand that every business is unique, and we tailor our services to meet the specific needs of your business</p>
+            <div class=" border-b-2 border-shikder-coral05"></div>
+            <div>
+              <div class=" relative px-4 py-8 bg-shikder-coral06 rounded-xl w-72 lg:w-96">
+                <p class=" text-gray-900 text-base sm:text-lg ">"As a business owener, I was looking for a way to improve the customer experience at my company. I came across sense and dedication to give them a try. I am so glad I did!"</p>
+                <span class=" -z-10 absolute h-12 w-12 bg-shikder-coral06 transform rotate-45 translate-x-1/3 translate-y-2"></span>
+              </div>
+              <div class=" flex flex-nowrap gap-4 pl-7 mt-10">
+                <div class="">
+                  <img src="../image/dp.jpg" alt="proPic" class=" w-14 rounded-full">
+                </div>
+                <div>
+                  <p class=" text-xl font-bold">Abdullah Al Mamun</p>
+                  <p class=" text-gray-700">CEO, Octopus Techfinite</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" order-1 md:order-2 w-full md:w-6/12 px-4">
+            <div class="flex justify-center md:justify-end items-center">
+                <img src="../image/customer.svg" alt="customer">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================Tailored End=========================== -->
+    <!-- =========================CRM Start=========================== -->
+    <section class=" py-10 bg-transparent">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="row">
+                <div class="w-full px-4 text-center space-y-4">
+                    <p class="  font-bold text-base sm:text-lg md:text-xl tracking-widest"><span class="text-animation">FEATURES</span></p>
+                    <h2 class=" font-bold text-lg md:text-2xl lg:text-4xl  ">A powerful CRM that handles it all</h2>
+                    <p class="text-base sm:text-lg md:text-xl  pb-16 ">We pride ourselves on delivering prompt and personalized customer support to ensure your satisfaction.</p>
+                </div>
+                <div class=" w-full md:w-4/12 px-4 pb-4 md:pb-0">
+                    <div class=" space-y-4 bg-shikder-coral01 p-8 h-full rounded">
+                        <div class=" w-12 h-12 pt-3 rounded-sm text-shikder-light bg-white">
+                            <i class=" p-2 fa-solid fa-2xl fa-headset"></i>
+                        </div>
+                        <h3 class=" text-white font-bold text-xl">Customer Support</h3>
+                        <p class=" text-white">We believe in going above and beyond to ensure your satisfaction, which is why our customer support is dedicated to delivering exceptional service.</p>
+                        <div class="py-4">
+                            <a href="javascript:;" class="text-white hover:text-gray-900">Learn more <span><i class="fa-solid fa-caret-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full md:w-4/12 px-4 pb-4 md:pb-0">
+                    <div class=" space-y-4 bg-shikder-coral01 p-8 h-full rounded">
+                        <div class=" w-12 h-12 pt-3 rounded-sm text-shikder-light bg-white">
+                            <i class=" p-2 fa-solid fa-2xl fa-circle-user"></i>
+                        </div>
+                        <h3 class=" text-white font-bold text-xl">Employee Experience</h3>
+                        <p class=" text-white">We understand the importance of work-life balance and offer programs and initiatives to support the well-being of our employees both inside and outside of the workplace.</p>
+                        <div class="py-4">
+                            <a href="javascript:;" class=" text-white hover:text-gray-900">Learn more <span><i class="fa-solid fa-caret-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full md:w-4/12 px-4">
+                    <div class=" space-y-4 bg-shikder-coral01 p-8 h-full rounded">
+                        <div class=" w-12 h-12 pt-3 rounded-sm text-shikder-light bg-white">
+                            <i class=" p-2 fa-solid fa-2xl fa-forward"></i>
+                        </div>
+                        <h3 class=" text-white font-bold text-xl">Qualifies Leads</h3>
+                        <p class=" text-white">We use advanced analytics and lead scoring techniques to prioritize qualified leads based on their likelihood to convert into paying customers.</p>
+                        <div class="py-4">
+                            <a href="javascript:;" class=" text-white hover:text-gray-900">Learn more <span><i class="fa-solid fa-caret-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full py-10">
+                    <div class=" flex items-center justify-center">
+                        <a href="javascript:;" class=" px-6 py-3 bg-shikder-primary hover:bg-shikder-light hover:shadow-md shadow-shikder-light transition ease-in-out duration-300 rounded-md text-white">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================CRM End=========================== -->
+    
+    <!-- service feature section starts -->
+    <section class=" py-10 ">
+      <div class="container max-w-screen-xl mx-auto px-4">
+          <div class="row">
+              <div class="w-full px-4 text-center space-y-4">
+                  <p class="  font-bold text-base sm:text-lg md:text-xl tracking-widest"><span class="text-animation">FEATURES</span></p>
+                  <h2 class=" font-bold text-lg md:text-2xl lg:text-4xl">Our <span class="text-animation">Solutions</span></h2>
+                  <p class=" text-lg sm:text-xl pb-16">We provide a time-worthy business solution to every type of business. <br> Find out your one and level up your success stairs.</p>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                  <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                      <h3 class="font-semibold text-xl pb-2">ERP</h3>
+                      <p class=" text-base text-zinc-700 font-normal"> Business ERP solution / Product / Shop / Company Management . </p>
+                  </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                  <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                      <h3 class="font-semibold text-xl pb-2">HRM</h3>
+                      <p class=" text-base text-zinc-700 font-normal"> Human Resource Management System(HRMS software) . </p>
+                  </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10% ">
+                  <h3 class="font-semibold text-xl pb-2">Web Applications </h3>
+                  <p class=" text-base text-zinc-700 font-normal"> We create vibrant,intuitive and minimalist website . </p>
+                </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                  <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                      <h3 class="font-semibold text-xl pb-2">Wholesale</h3>
+                      <p class=" text-base text-zinc-700 font-normal">Inventory control and  management system</p>
+                  </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                  <h3 class="font-semibold text-xl pb-2"> Mobile Applications</h3>
+                  <p class=" text-base text-zinc-700 font-normal"> We create Android apps / IOS / Flutter . </p>
+                </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                  <h3 class="font-semibold text-xl pb-2"> Server </h3>
+                  <p class=" text-base text-zinc-700 font-normal"> Server maintenance  . </p>
+                </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                  <h3 class="font-semibold text-xl pb-2"> E-Commerce</h3>
+                  <p class=" text-base text-zinc-700 font-normal"> Multi vendor Marketplace platfrom. </p>
+                </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                  <h3 class="font-semibold text-xl pb-2"> Hotel </h3>
+                  <p class=" text-base text-zinc-700 font-normal"> Hotel management system software. </p>
+                </div>
+              </div>
+              <div class=" w-full sm:w-6/12 md:w-4/12 px-4 pb-4">
+                <div class=" h-full px-6 py-6 rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07 to-10%">
+                  <h3 class="font-semibold text-xl pb-2"> Hospital </h3>
+                  <p class=" text-base text-zinc-700 font-normal"> Hospital management system software. </p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- service feature section ends -->
+    <!-- Rated section starts -->
+    <div class="px-4 sm:px-10 md:px-24 lg:px-60 py-10 sm:py-6 ">
+      <div class="container max-w-screen-xl mx-auto px-4 bg-shikder-coral06">
+        <div class="row py-10">
+          <div class="w-full md:w-6/12 px-4 sm:px-8 md:px-16 ">
+            <h2 class="font-bold text-lg md:text-2xl lg:text-4xl">Rated as the  best platfrom</h2>
+            <p class="py-4">our team of experts is  dedicated to helping  businesses improve their customer experience  and take their business to the next level</p>
+          </div>
+          <div class="w-6/12 md:w-3/12 px-4 sm:px-8 py-4 md:py-8">
+            <p class="text-xl sm:text-2xl md:text-4xl font-bold">4.9 </p>
+            <div class="py-1">
+              <ul class="flex ">
+                <li><a href="" class=""><i class="text-yellow-400 fa-solid fa-star "></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+              </ul>
+            </div>
+            <p class="">Capterra</p>
+          </div>
+          <div class="w-6/12 md:w-3/12 px-4 sm:px-8 py-4 md:py-8">
+            <p class="text-xl sm:text-2xl md:text-4xl font-bold" >4.8 </p>
+            <div class="py-1">
+              <ul class="flex">
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star "></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+                <li><a href=""><i class="text-yellow-400 fa-solid fa-star"></i></a></i></li>
+              </ul>
+            </div>
+            <p class="">Trustpilot</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Rated section ends -->
+
+    <!-- custom service starts  -->
+    <div class="py-6">
+      <div class="container max-w-screen-xl mx-auto px-4 ">
+        <div class="row">
+          <div class="w-full text-center px-4 py-4">
+            <h2 class="font-bold text-lg md:text-2xl lg:text-4xl px-4 py-4 ">Share Your Demand to <br><span class="text-animation">Design Any Customized</span>  Software </h2>
+            <p class=" text-base sm:text-lg md:text-xl  pb-16"> ShikderIT focuses on the exact requirements of the clients. <br> We design and develop the best and most advanced software for all types of businesses.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class=" w-full  sm:w-6/12 md:w-4/12 px-5 py-5 ">
+            <div class="flex flex-col px-5 py-5 h-full break-words  rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07  to-10% bgChangeOnHover">
+                <div class=" block mb-4 relative">
+                  <img class="w-16" src="../image/software-devnw.png" alt="Software">
+                </div>
+                <div class="space-y-2  flex-auto relative">
+                  <h3 class="text-xl font-medium ">Software Development</h3>
+                  <p class=" text-base  text-gray-800">We can develop any kind of software solution to automate your business according to your requirements.</p>
+                </div>
+            </div>
+          </div>
+          <div class=" w-full  sm:w-6/12 md:w-4/12 px-5 py-5  ">
+            <div class="flex flex-col px-5 py-5 h-full break-words rounded bg-gradient-to-tr from-shikder-coral05 from-90% to-shikder-coral07 to-10% bgChangeOnHover">
+              <div class=" block mb-4 relative">
+                <img class="w-16 " src="../image/web-dev.png" alt="Website">
+              </div>
+              <div class="space-y-2 flex-auto relative ">
+                <h3 class="text-xl font-medium ">Website Development</h3>
+                <p class=" text-base line-clamp-4 text-gray-800">A website can represent your business identity we can develop it according to the motive of your business.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full  sm:w-6/12 md:w-4/12 px-5 py-5  ">
+            <div class=" flex flex-col px-5 py-5 h-full break-words  rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07  to-10% bgChangeOnHover">
+              <div class=" block mb-4  relative">
+                <img class="w-20 " src="../image/apps-dev.png" alt="Mobile Apps">
+              </div>
+              <div class="space-y-2 flex-auto relative">
+                <h3 class="text-xl font-medium ">Mobile Apps Development</h3>
+                <p class=" text-base line-clamp-4 text-gray-800">ShikderIT develops both Android and iOS apps to make your business  more Convenient and flexible.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" w-full  sm:w-6/12 md:w-4/12 px-5 py-5 ">
+            <div class=" flex flex-col px-5 py-5 h-full break-words  rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07  to-10% bgChangeOnHover">
+              <div class=" block mb-4 relative">
+                <img class="w-14 rounded-full" src="../image/ecom-design.png" alt="e-Commerce picture">
+              </div>
+              <div class="space-y-2 flex-auto relative">
+                <h3 class="text-xl font-medium ">E-commerce</h3>
+                <p class=" text-base line-clamp-4 text-gray-800">We have readymade e-Commerce software solutions based on your demand.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" w-full  sm:w-6/12 md:w-4/12 px-5 py-5 ">
+            <div class=" flex flex-col px-5 py-5 h-full break-words  rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07  to-10% bgChangeOnHover">
+              <div class=" block mb-4 relative">
+                <img class="w-14 " src="../image/server-dev.png" alt="server picture">
+              </div>
+              <div class="space-y-2 flex-auto relative">
+                <h3 class="text-xl font-medium ">Server maintenance</h3>
+                <p class=" text-base line-clamp-4 text-gray-800">As server maintenance services, we strive to maximize the performance of your servers while minimal operational expenses.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="w-full  sm:w-6/12 md:w-4/12 px-5 py-5">
+            <div class="flex flex-col px-5 py-5 h-full break-words  rounded bg-gradient-to-tr from-shikder-coral05 from-90%  to-shikder-coral07  to-10% bgChangeOnHover">
+              <div class="block mb-4 relative">
+                <img class="w-14" src="../image/ui-dev.png" alt="ui">
+              </div>
+              <div class="space-y-2 flex-auto relative">
+                <h3 class="text-xl font-medium">Ui/Ux</h3>
+                <p class=" text-base line-clamp-4 text-gray-800">We can develop any kind of UI design  according to your requirements.</p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-- custom service ends  -->
+
+    <!--live chat feature section starts -->
+    <!-- <div class="py-6">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full text-center  py-4">
+            <p class="  font-bold text-base sm:text-lg md:text-xl tracking-widest"><span class="text-animation">FEATURES</span></p>
+            <h2 class="font-bold text-lg md:text-2xl lg:text-4xl px-4 py-4 ">We can help you achieve <br> your  customer satisfaction goals </h2>
+          </div>
+        </div>
+        <div class="row ">
+          <div class=" w-full md:w-1/2 px-4 py-4 ">
+            <div class=" bg-color-1 px-8  py-10">
+              <h2 class="text-xl sm:text-2xl font-bold py-4">Live chat technology</h2>
+              <p class="py-4"> Live chat technology refers to the software and systems used by businesses to facilitate real-time communication with website visitors or customers through text-based messaging. It allows users to engage in instant conversations with company representatives or support agents directly on the website, typically through a chat box or widget. 
+              </p>
+              <div class="py-4">
+                <a href="javascript:;" class=" font-medium py-4 ">Learn more <span><i class="fa-solid fa-caret-right  "></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class=" w-full md:w-1/2 px-4 py-4 ">
+            <div class=" bg-color-2 px-8 py-10">
+              <h2 class="text-xl sm:text-2xl font-bold py-4">Human customer support</h2>
+              <p class="py-4"> Human customer support refers to the practice of providing assistance and resolving inquiries or issues through direct interaction between customers and human representatives or agents. Unlike automated or self-service support systems, it relies on the expertise, empathy, and problem-solving abilities of trained individuals to address customer needs effectively.
+              </p>
+              <div class="py-4">
+                <a href="javascript:;" class=" font-medium py-4 ">Learn more <span><i class="fa-solid fa-caret-right  "></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--live chat feature section ends -->
+    <!-- our number section starts -->
+    <div class="py-6 md:py-8 lg:py-14">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-center">
+          <div class="w-full md:w-1/2 px-4 py-4 md:py-0 pr-5 space-y-0 sm:space-y-4">
+            <h2 class="py-2 sm:py-4 font-bold text-lg md:text-2xl lg:text-4xl  ">ShikderIT, <br> <span class="text-animation"> At a Glance</span> </h2>
+            <p class=" pb-2 text-lg">
+              The numbers speak for itself, we have served more than 100 Clients in last four years. Besides , we have a signifificant numbers of  Web application and Mobile application. we provide the best custom cross-platfrom services .
+            </p>
+            <div class="py-6">
+              <a class="px-6 py-3 bg-shikder-primary hover:bg-shikder-light hover:shadow-md shadow-shikder-light transition ease-in-out duration-300 rounded-md  text-white " href="">Get Started</a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 px-4 md:px-8 py-4 md:py-0">
+            <div class="w-full flex justify-center">
+              <div class="flex flex-wrap items-center gap-2 max-w-md">
+                <div class="w-full flex gap-2">
+                  <div class="w-1/2 bg-shikder-coral06 py-4">
+                    <p class=" font-bold text-3xl text-center md:text-4xl lg:text-6xl py-2 text-shikder-coral01 num " data-val="50">00+</p>
+                    <p class=" text-xl font-medium text-center text-shikder-coral01">Projects </p>
+                  </div>
+                  <div class="w-1/2 bg-shikder-coral06 py-4">
+                    <p class=" font-bold text-3xl text-center md:text-4xl lg:text-6xl py-2 text-shikder-coral01 num " data-val="40">00+</p>
+                    <p class=" text-xl font-medium text-center text-shikder-coral01">Products</p>
+                  </div>
+                </div>
+                <div class="w-full flex gap-2">
+                  <div class="w-1/2 bg-shikder-coral06 py-4">
+                    <p class=" font-bold text-3xl text-center md:text-4xl lg:text-6xl py-2  text-shikder-coral01 num " data-val="100 ">000+</p>
+                    <p class=" text-xl font-medium text-center text-shikder-coral01">Happy Clients</p>
+                  </div>
+                  <div class="w-1/2 bg-shikder-coral06 py-4">
+                    <p class=" font-bold text-3xl text-center md:text-4xl lg:text-6xl py-2  text-shikder-coral01 num " data-val="4 ">0+</p>
+                    <p class=" text-xl font-medium text-center text-shikder-coral01">Year Founded</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="w-full py-0 md:py-4 ">
+              <p class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-7xl py-2">$5M+</p>
+              <p class="text-gray-800">Raise</p>
+            </div> -->
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <!-- our number section ends -->
+    <!-- =========================Testimonials Start=========================== -->
+    <section class=" py-10 overflow-hidden">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row items-center">
+          <div class="w-full px-4 pb-10 space-y-4 md:space-y-6">
+            <h2 class=" font-bold text-lg sm:text-2xl lg:text-4xl text-start md:text-center">We Are <span class="text-animation"> Expert </span></h2>
+            <p class=" text-lg text-gray-900 text-start md:text-center">We work intensively in search of ideals that can add up in the lives of our clients. These are the technologies that move us and we are grateful for the recognition.</p>
+          </div>
+          <div class="relative w-full">
+            <div class="homeslider w-full">
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/android.png" alt="android">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Android</span>
+                      </div>
+                  </div>
+                  </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/go.png" alt="go_lang">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Go Lang</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/flutter.png" alt="flutter">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Flutter</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/laravel.png" alt="laravel">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Laravel</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/java.png" alt="java">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Java</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/kotlin.png" alt="kotlin">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Kotlin</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/postgresql.png" alt="postgresql">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">PostgreSql</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/mysql.png" alt="mysql">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">MySQL</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/md.png" alt="mongo_db">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">MongoDB</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/AWS.png" alt="aws">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">AWS</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/vuejs.png" alt="vue.js">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Vue JS</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+              <div class=" px-4 h-full">
+                <a href="javascript:;" class="flex flex-col items-center p-10 border border-gray-400 rounded cursor-pointer hover:bg-gray-200 bg-gray-50 h-60">
+                  <div class="flex flex-col justify-between w-full h-full">
+                      <div class="h-3/5 flex items-center justify-center">
+                          <img class="w-24" src="../image/tailwind.png" alt="tailwindcss">
+                      </div>
+                      <div class="h-2/5 flex items-center pt-8 justify-center">
+                          <span class="text-3xl font-semibold group-hover:text-white">Tailwind CSS</span>
+                      </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="absolute top-1/2 left-0 arr1 px-3 py-1.5 transform -translate-y-4 bg-shikder-primary text-white cursor-pointer"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="absolute top-1/2 right-0 arr2 px-3 py-1.5 transform -translate-y-4 bg-shikder-primary text-white cursor-pointer"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================Testimonials End=========================== -->
+    <!-- customer section starts -->
+    <div class="pt-6 pb-16">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="  row">
+          <div class=" relative w-full px-4 space-y-4 md:space-y-6 py-12 text-center bg-shikder-coral01 rounded-md mx-4">
+            <h2 class="text-lg md:text-2xl lg:text-4xl text-white font-bold">
+              Take your customers</br>  to the next level
+            </h2>
+            <p class="text-white py-5">We are dedicated to helping businesses to improve</br>  the experience they provide for the customers</p>
+            <div class="py-4">
+              <a class="px-8 py-2 bg-white text-shikder-coral01 capitalize rounded-md font-semibold hover:text-white hover:bg-shikder-dark " href="javascript:;">get started</a>
+            </div>
+            <div class=" -z-10 absolute h-full w-full bg-shikder-coral05 -bottom-4 left-4 rounded-md">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- customer section ends -->
+
+    <!-- =====================Footer bg Start================== -->
+    <!-- <section>
+      <div class="w-full">
+        <img src="../image/footer_bg.png" alt="Footer Background" class="w-full">
+      </div>
+    </section> -->
+    <!-- =====================Footer bg End================== -->
+    <!-- ===============Footer Section Start============== -->
+    <section class="py-10 bg-shikder-dark">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full sm:w-6/12 md:w-5/12 lg:w-4/12 px-4">
+            <div class="w-full space-y-4">
+              <a href="./index.html">
+                <img src="../image/shikder_it.png" alt="logo" class="w-32">
+              </a>
+              <p class="text-white text-base">ShikderIT is the leading software firm in Kolkata, India. It has a team of capable employees who can curate services to meet your demands.</p>
+            </div>
+            <div class="w-full my-4">
+              <div class="flex flex-nowrap justify-start items-center gap-1 text-white">
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-shikder-coral03 transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-shikder-coral03 transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-shikder-coral03 transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="">
+                  <a href="javascript:;" class="w-12 h-12 flex justify-center items-center bg-shikder-coral03 transform hover:-translate-y-2 duration-300 ease-in-out"><i class="fa-2x fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 md:w-4/12 lg:w-3/12 px-4 pt-12 sm:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Address</h3>
+              <ul class="space-y-2 text-white">
+                <li><a href="tel:+919062686255" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-phone"></i></span><p>+91 9062-686255</p></a></li>
+                <li><a href="mailto:contact@sikderithub.com" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-envelope"></i></span><p>contact@sikderithub.com</p></a></li>
+                <li><a href="https://maps.app.goo.gl/EeKEMpZKAsKAzyBcA" class=" flex flex-nowrap gap-4 hover:text-gray-300 transition duration-300"><span class=""><i class="fa-solid fa-location-dot"></i></span><p>Sikder International IT Hub Private Limited Babanpur, Benegal Enamel, West Bengal 743122, India</p></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 md:w-3/12 lg:w-2/12 px-4 pt-12 md:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Quick Links</h3>
+              <ul class="space-y-2 text-white">
+                <!-- <li><a href="./index.html" class="hover:text-gray-300 transition duration-300">Home</a></li> -->
+                <!-- <li><a href="./team.html" class="hover:text-gray-300 transition duration-300">Our Team</a></li> -->
+                <li><a href="./about.html" class="hover:text-gray-300 transition duration-300">About Us</a></li>
+                <li><a href="./contacts.html" class="hover:text-gray-300 transition duration-300">Contact Us</a></li>
+                <li><a href="./terms.html" class="hover:text-gray-300 transition duration-300">Terms & Conditions</a></li>
+                <li><a href="./policy.html" class="hover:text-gray-300 transition duration-300">Privacy-Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 lg:w-3/12 px-4 pt-12 lg:pt-0">
+            <div class="w-full space-y-4 sm:space-y-10">
+              <h3 class="text-lg text-white font-bold">Subscribe to our newsletter</h3>
+              <div class="space-y-2">
+                <p class="text-white text-base">The latest news, articles, and resources, sent to your inbox weekly.</p>
+                <form action="" class="flex flex-nowrap gap-2">
+                  <input type="email" name="email" autocomplete="email" placeholder="Enter Your Email" class="block w-full rounded-md bg-shikder-coral06 text-black border-0 py-1.5 px-3 shadow-sm ring-1 ring-inset ring-shikder-coral07 focus:ring-shikder-coral05 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6">
+                  <button class="py-1.5 px-4 text-shikder-primary hover:text-white font-bold bg-white hover:bg-shikder-primary transition duration-300 ease-in-out rounded-md">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Footer Section End============== -->
+    <!-- ===============Border Start============== -->
+    <section class="mt-auto pt-10 bg-shikder-dark">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full px-4 border-t border-shikder-coral05"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Border End============== -->
+    <!-- ===============Right Reserved Start============== -->
+    <section class="py-4 bg-shikder-dark">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="row">
+          <div class="w-full px-4">
+            <p class=" text-white text-sm text-center"><span class="pr-4"><i class="fa-regular fa-copyright"></i></span>All rights reserved by <a href="./index.html" class="font-semibold ">ShikderIT</span>.</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Right Reserved End============== -->
+
+    <!-- footer section starts -->
+    <!-- <div class=" py-10  bg-color-2">
+      <div class="container  max-w-screen-xl mx-auto px-4 py-4">
+          <div class="row">
+              <div class="w-full sm:w-6/12 md:w-3/12  ">
+                  <div class="md:px-4 px-2">
+                      <a href="index.html"><img src="../image/Logo.png" alt="logo"></a>
+                  </div>
+                  <p class="md:px-4 px-2 py-1">ShikderIT is a software firm in Khulna.
+                  </p>
+                  <p class="md:px-4 px-2 py-1">
+                      <span class="text font-normal text-base ">
+                          <i class="fa-solid fa-phone"></i> 01955786556
+                      </span>
+                  </p>
+                  <p class="md:px-4 px-2 py-1">
+                  <span class="text font-normal  text-base ">
+                      <i class="fa-solid fa-envelope"></i> contact@sikderithub.com
+                  </span>
+                  </p>
+                  <p class="md:px-4 px-2 py-1">
+                  <span class="text font-normal  text-base">
+                      <i class="fa-solid fa-location-dot"></i>  6th Floor, South Zone Hospital,33 Outer Bypass Rd, Khulna-9100
+                  </span>
+                  </p>
+                  <div class="px-4">
+                      <div class="mt-8  cursor-pointer border rounded text-center p-4 hover:bg-gradient bg-color-4  text-white">
+                          <a href="./contacts.html" class=" ">GET IN TOUCH</a>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="w-full sm:w-6/12 md:w-3/12 sm:pl-10 lg:pl-20 capitalize  py-4  md:py-0">
+                  <h2 class="px-2  mb-4 text-lg md:text-2xl lg:text-3xl font-semibold">Menu</h2>
+                  <ul class="px-2 py-2 space-y-2 ">
+                      <li><a class="hover:text-gradient " href="index.html">home</a></li>
+                      <li><a class="hover:text-gradient" href="about.html">about us</a></li>
+                      <li><a class="hover:text-gradient" href="pricing.html">pricing</a></li>
+                      <li><a class="hover:text-gradient" href="features.html">features</a></li>
+                      <li><a class="hover:text-gradient" href="blog.html">blog</a></li>
+                      <li><a class="hover:text-gradient" href="career.html">career</a></li>
+                      <li><a class="hover:text-gradient" href="contacts.html">contact us</a></li>
+                  </ul>
+              </div>
+          <div class="w-full sm:w-6/12 md:w-3/12 capitalize  py-4 md:py-0">
+              <h2 class="px-2  mb-4 text-lg md:text-2xl lg:text-3xl font-semibold">Services</h2>
+              <ul class="px-2 py-2 space-y-2  ">
+              <li class="hover:text-gradient cursor-pointer">Mobile apps</li>
+              <li class="hover:text-gradient cursor-pointer">Web Development</li>
+              <li class="hover:text-gradient cursor-pointer">Server</li>
+              <li class="hover:text-gradient cursor-pointer">Ui/Ux </li>
+              
+              </ul>
+          </div>
+          <div class="w-full sm:w-6/12 md:w-3/12 sm:pl-10 md:pl-0  capitalize  py-4 md:py-0">
+              <h2 class="px-2  mb-4 text-lg md:text-2xl lg:text-3xl font-semibold">Social</h2>
+              <div class="flex px-2 py-2 space-x-6  sm:space-x-3 md:space-x-4">
+              <a href="" class="hover:text-gradient text-3xl " ><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="" class="hover:text-gradient text-3xl" ><i class=" fa-brands fa-linkedin"></i></a>
+              <a href="" class="hover:text-gradient text-3xl" ><i class=" fa-brands fa-instagram"></i></a>
+              <a href="" class="hover:text-gradient text-3xl" ><i class=" fa-brands fa-twitter "></i></a>
+              </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="bg-color-2">
+      <div class="container mx-auto px-4  ">
+          <div class="row">
+          <div class="w-full border-gray-400 border-b py-4">
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="bg-color-2">
+      <div class="container mx-auto px-4 py-4 ">
+          <div class="row">
+          <div class="w-full text-center">
+              <p class="font-semibold"> <span class="pr-2"><i class="fa-regular fa-copyright "> </i> 2023</span> All rights reserved by <a href="index.html" class="text-lg hover:text-gradient ">ShikderIT.</a></p>
+          </div>
+          </div>
+      </div>
+    </div> -->
+    <!-- footer section ends -->
+
+
+    <script src="../js/index.js"></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.homeslider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            prevArrow: $('.arr1'),
+            nextArrow: $('.arr2'),
+            responsive: [
+                  {
+                    breakpoint: 1024,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1
+                    }
+                  },
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1
+                    }
+                  },
+                  {
+                    breakpoint: 550,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
+          });
+      });
+    </script>
+</body>
+</html>
