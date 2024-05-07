@@ -148,7 +148,7 @@
  }
 
  .custom-bg-1{
-  background: linear-gradient(to top,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../image/contact-bg.jpg");
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../image/our_team.png");
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -262,7 +262,11 @@
 }
 
 .text-animation {
-  background: linear-gradient(to left, #FD7552,#FD7552,#FFFF00,#FD896A,#FF7443,#FF8888,#FD7552);
+  /* background: linear-gradient(to left, #FD7552,#FD7552,#FFFF00,#FD896A,#FF7443,#FF8888,#FD7552); */
+  /* background: linear-gradient(to right,#284595,#70bfe5,#1c61ae,#70bfe5,#284595); */
+  /* background: linear-gradient(to left, #FD7552,#ec6240,#e97d62,#FD7552,#FD7541); */
+  background: linear-gradient(to left, #CC4E2D,#FF7443,#ff6138,#FF7443,#CC4E2D);
+  /* background: linear-gradient(to left, #FD7552,#FD896A,#ff6138,#FD896A,#FD7552); */
   background-size: 200% auto;
   background-clip: text;
   color: transparent;
