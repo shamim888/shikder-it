@@ -28,6 +28,7 @@ module.exports = {
           primary: '#ff6138',
           secondary: '#44557b',
           dark: '#CC4E2D',
+          dark2: '#c76d56',
           light: '#FF7443',
           coral01: '#FD7552',
           coral02: '#FD7F5E',

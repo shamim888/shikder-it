@@ -2371,6 +2371,10 @@ video {
     padding-top: 2rem;
   }
 
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .sm\:text-left {
     text-align: left;
   }
@@ -2607,6 +2611,10 @@ video {
 
   .md\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .md\:text-center {
